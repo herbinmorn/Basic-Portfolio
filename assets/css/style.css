@@ -1,0 +1,93 @@
+
+html{
+    background-color: darkgray;
+    padding:10px;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+
+footer{
+    text-align: center;
+    height:70px;
+    width:960px;
+    background-color: gray;
+    /*padding-top: 10*/
+    border-top-width: 10px; 
+    border-color: turquoise;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    bottom:0px;
+
+
+}
+.name{
+    text-align: center;
+}
+a{
+    color:gray;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    padding:10px;
+    text-decoration: none;
+    margin: 15px 30px;
+    
+}
+#portfolio {
+    position: absolute;
+    right: 90px;
+}
+#about{
+    position:absolute;
+    right: 200px;
+}
+header {
+    background: blanchedalmond;
+    width: 960px;
+    height: 70px;
+    position: relative;
+  }
+
+.pages{
+    
+}
+    
+
+
+
+/*h2 {
+    background-color: aquamarine;
+    font: aliceblue;
+}*/
+#xiaoquan {
+    position: absolute; 
+    bottom:-21px;
+    /*text-align:center;*/
+    padding: 10px;
+    background-color: turquoise;
+    color:white;
+    width: 250px;
+    height: 70px;
+    
+}
+
+main {
+    background: white;
+    width: 960px;
+    height:500px;
+}
+#left {
+    float: left;
+}
+#right{
+    float: right;
+}
+#top{
+    float:top;
+    text-align: left;
+    color:turquoise;
+}
