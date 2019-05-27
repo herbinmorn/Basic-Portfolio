@@ -5,23 +5,63 @@ html{
 }
 * {
     box-sizing: border-box;
-    text-align: center;
+   /*text-align: center;*/
   }
   
+h1{
+    margin:20px;
+    color:turquoise;
+}
 
 footer{
-    text-align: center;
+    
     height:70px;
-    width:960px;
+    width:100%;
     background-color: gray;
     /*padding-top: 10*/
     border-top-width: 10px; 
+    border-style: solid;
     border-color: turquoise;
-    font-size: 14px;
-    color: white;
+    
+    
     position: fixed;
-    bottom:0px;
+    bottom:10px;
 
+
+}
+main{
+    margin: 20px 200px;
+    
+}
+label{
+    /*float: left;*/
+    margin:20px;
+}
+#copyright{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+}
+input{
+    width:920px;
+    margin:20px;
+
+}
+textarea{
+    width:920px;
+    margin: 20px;
+}
+button{
+  background-color: turquoise;
+  border: none;
+  color: white;
+  padding: 20px;
+  margin:20px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 16px;
 
 }
 .name{
@@ -47,7 +87,7 @@ a{
 }
 header {
     background: blanchedalmond;
-    width: 960px;
+    width: 100%;
     height: 70px;
     position: relative;
   }
