@@ -1,16 +1,63 @@
 
 html{
     background-color: darkgray;
-    padding:10px;
+  
 }
-* {
+/* {
     box-sizing: border-box;
-   /*text-align: center;*/
+   text-align: center;*/
+header {
+    background: blanchedalmond;
+    width: 100%;
+    height: 70px;
+    position: relative;
   }
   
+#xiaoquan {
+    position: absolute; 
+    bottom:-22px;
+    text-align:center;
+   /* padding: 10px;*/
+    background-color: turquoise;
+    color:white;
+    width: 250px;
+    height: 70px;
+    margin-left:200px;
+}
+  
+
+
+.name{
+    text-align: center;
+}
+a{
+    color:gray;
+    font-size: 24px;
+    position: absolute;
+    right: 150px;
+    padding:10px;
+    text-decoration: none;
+    margin: 15px 30px;
+    
+}
+
+#portfolio {
+    position: absolute;
+    right: 240px;
+}
+#about{
+    position:absolute;
+    right: 350px;
+}
+
 h1{
-    margin:20px;
     color:turquoise;
+ } 
+
+.what{
+    margin:20px;
+    padding: 20px 0px;
+    border-bottom: 2px solid gray;
 }
 
 footer{
@@ -18,31 +65,37 @@ footer{
     height:70px;
     width:100%;
     background-color: gray;
-    /*padding-top: 10*/
     border-top-width: 10px; 
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
     border-style: solid;
     border-color: turquoise;
-    
-    
     position: fixed;
-    bottom:10px;
-
-
+    bottom:0px;
 }
+
+
+#copyright {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  
+}
+
 main{
     margin: 20px 200px;
+    background: white;
+    width: 960px;
+    height:600px;
+    overflow: auto;
     
 }
 label{
     /*float: left;*/
     margin:20px;
 }
-#copyright{
-    font-size: 14px;
-    text-align: center;
-    color: white;
 
-}
 input{
     width:920px;
     margin:20px;
@@ -64,36 +117,22 @@ button{
   font-size: 16px;
 
 }
-.name{
-    text-align: center;
-}
-a{
-    color:gray;
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    padding:10px;
-    text-decoration: none;
-    margin: 15px 30px;
-    
-}
-#portfolio {
-    position: absolute;
-    right: 90px;
-}
-#about{
-    position:absolute;
-    right: 200px;
-}
-header {
-    background: blanchedalmond;
-    width: 100%;
-    height: 70px;
+img{
+    height: 162px;
+    width: 216px;
+    margin:20px;
     position: relative;
-  }
 
-.pages{
-    
+}
+
+.middle{
+    float:right;
+    margin-right: 200px;
+}
+
+
+section{ 
+    width: 960px;
 }
     
 
@@ -103,23 +142,9 @@ header {
     background-color: aquamarine;
     font: aliceblue;
 }*/
-#xiaoquan {
-    position: absolute; 
-    bottom:-21px;
-    /*text-align:center;*/
-    padding: 10px;
-    background-color: turquoise;
-    color:white;
-    width: 250px;
-    height: 70px;
-    
-}
 
-main {
-    background: white;
-    width: 960px;
-    height:500px;
-}
+
+
 #left {
     float: left;
 }
