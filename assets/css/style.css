@@ -1,6 +1,6 @@
 
 html{
-    background-color: darkgray;
+    background-color: #f0f0f5;
   
 }
 /* {
@@ -14,20 +14,17 @@ header {
   }
   
 #xiaoquan {
+    color:white;
+}
+
+.name{
     position: absolute; 
-    bottom:-22px;
-    text-align:center;
+    /*bottom:-22px;*/
    /* padding: 10px;*/
     background-color: turquoise;
-    color:white;
     width: 250px;
     height: 70px;
     margin-left:200px;
-}
-  
-
-
-.name{
     text-align: center;
 }
 a{
@@ -91,6 +88,31 @@ main{
     overflow: auto;
     
 }
+
+#me{
+    height: 139px;
+    width: 205px;
+    margin: 20px;
+    
+}
+
+#intro{
+    width:695px;
+    margin-right: 20px;
+    margin-top: -10px;
+    float:right;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+#hobby{
+    width:100%;
+    margin: 20px;
+    font-size:18px;
+    
+
+}
+
 label{
     /*float: left;*/
     margin:20px;
@@ -121,14 +143,12 @@ img{
     height: 162px;
     width: 216px;
     margin:20px;
-    position: relative;
-
 }
 
-.middle{
+/*.middle{
     float:right;
     margin-right: 200px;
-}
+}*/
 
 
 section{ 
@@ -145,14 +165,38 @@ section{
 
 
 
-#left {
+.leftphoto {
     float: left;
+    width:256px;
+    clear:both;
 }
-#right{
-    float: right;
+.middlephoto{
+    float:right;
+    margin-right: 35%;
+   
 }
 #top{
     float:top;
     text-align: left;
     color:turquoise;
 }
+
+h3{
+    width:216px;
+    height:45px;
+    background-color: turquoise;
+    color:white;
+
+}
+
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+    bottom:20px;
+    margin-left: 20px;
+    text-align: center;
+    
