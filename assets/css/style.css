@@ -3,9 +3,7 @@ html{
     background-color: #f0f0f5;
   
 }
-/* {
-    box-sizing: border-box;
-   text-align: center;*/
+
 header {
     background: blanchedalmond;
     width: 100%;
@@ -19,8 +17,6 @@ header {
 
 .name{
     position: absolute; 
-    /*bottom:-22px;*/
-   /* padding: 10px;*/
     background-color: turquoise;
     width: 250px;
     height: 70px;
@@ -106,15 +102,13 @@ main{
 
 }
 #hobby{
-    width:100%;
+    width: 920px;
     margin: 20px;
     font-size:18px;
-    
-
+    line-height:40px;
 }
 
 label{
-    /*float: left;*/
     margin:20px;
 }
 
@@ -135,33 +129,30 @@ button{
   margin:20px;
   text-align: center;
   text-decoration: none;
-  /*display: inline-block;*/
-  font-size: 16px;
+  font-size: 18px;
 
 }
+button:hover {background-color: teal}
+button:active {
+    background-color: #3e8e41;
+}
+
 img{
     height: 162px;
     width: 216px;
     margin:20px;
 }
 
-/*.middle{
-    float:right;
-    margin-right: 200px;
-}*/
+
 
 
 section{ 
     width: 960px;
+   
 }
     
 
 
-
-/*h2 {
-    background-color: aquamarine;
-    font: aliceblue;
-}*/
 
 
 
